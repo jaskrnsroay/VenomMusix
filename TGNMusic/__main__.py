@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await TGN.start()
     try:
-        await TGN.stream_call("https://graph.org/file/ec8a35dd5f1ef90947167.mp4")
+        await TGN.stream_call("https://telegra.ph/file/fc7f5e51a690cc184fa69.jpg")
     except NoActiveGroupCall:
         LOGGER("TGNMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
